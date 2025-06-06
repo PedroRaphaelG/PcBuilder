@@ -1,3 +1,8 @@
+package main.java.builder;
+
+import main.java.model.Component;
+import main.java.model.Computer;
+
 public class CustomPCBuilder implements PCBuilder {
     private Computer computer;
 
@@ -20,7 +25,6 @@ public class CustomPCBuilder implements PCBuilder {
         return computer;
     }
 
-    // ✅ Adicione este método abaixo
     public void setComputer(Computer pc) {
         this.computer = pc;
     }

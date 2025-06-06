@@ -1,3 +1,10 @@
+package main.java.factory;
+
+import main.java.model.Component;
+import main.java.model.Computer;
+import main.java.model.ComponentType;
+import main.java.builder.CustomPCBuilder;
+
 public class PreBuiltPCFactory {
     public static Computer criarPCIniciante() {
         return new CustomPCBuilder()

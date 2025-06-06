@@ -1,3 +1,5 @@
+package main.java.model;
+
 public class Component {
     private ComponentType type;
     private String name;

@@ -1,4 +1,5 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
+package main.java.model;
+
 public enum ComponentType {
    PROCESSADOR,
    MEMORIA,

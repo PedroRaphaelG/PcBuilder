@@ -1,5 +1,10 @@
+package main.java.catalog;
+
 import java.util.Arrays;
 import java.util.List;
+
+import main.java.model.Component;
+import main.java.model.ComponentType;
 
 public class ComponentCatalog {
     public static List<Component> getAllComponents() {
